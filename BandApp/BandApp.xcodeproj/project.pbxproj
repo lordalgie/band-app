@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0FC679D14FA9D8000588487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679C14FA9D8000588487 /* UIKit.framework */; };
+		E0FC679F14FA9D8000588487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679E14FA9D8000588487 /* Foundation.framework */; };
+		E0FC67A114FA9D8000588487 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC67A014FA9D8000588487 /* CoreGraphics.framework */; };
+		E0FC67A714FA9D8000588487 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0FC67A514FA9D8000588487 /* InfoPlist.strings */; };
+		E0FC67A914FA9D8000588487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FC67A814FA9D8000588487 /* main.m */; };
+		E0FC67AD14FA9D8000588487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FC67AC14FA9D8000588487 /* AppDelegate.m */; };
+		E0FC67B014FA9D8000588487 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FC67AE14FA9D8000588487 /* MainStoryboard.storyboard */; };
+		E0FC67B314FA9D8000588487 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FC67B214FA9D8000588487 /* ViewController.m */; };
+		E0FC67BB14FA9D8000588487 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC67BA14FA9D8000588487 /* SenTestingKit.framework */; };
+		E0FC67BC14FA9D8000588487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679C14FA9D8000588487 /* UIKit.framework */; };
+		E0FC67BD14FA9D8000588487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679E14FA9D8000588487 /* Foundation.framework */; };
+		E0FC67C514FA9D8000588487 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0FC67C314FA9D8000588487 /* InfoPlist.strings */; };
+		E0FC67C814FA9D8000588487 /* BandAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FC67C714FA9D8000588487 /* BandAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0FC67BE14FA9D8000588487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0FC678F14FA9D7F00588487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0FC679714FA9D8000588487;
+			remoteInfo = BandApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0FC679814FA9D8000588487 /* BandApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FC679C14FA9D8000588487 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0FC679E14FA9D8000588487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0FC67A014FA9D8000588487 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0FC67A414FA9D8000588487 /* BandApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BandApp-Info.plist"; sourceTree = "<group>"; };
+		E0FC67A614FA9D8000588487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0FC67A814FA9D8000588487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0FC67AA14FA9D8000588487 /* BandApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BandApp-Prefix.pch"; sourceTree = "<group>"; };
+		E0FC67AB14FA9D8000588487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0FC67AC14FA9D8000588487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0FC67AF14FA9D8000588487 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E0FC67B114FA9D8000588487 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0FC67B214FA9D8000588487 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0FC67B914FA9D8000588487 /* BandAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FC67BA14FA9D8000588487 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0FC67C214FA9D8000588487 /* BandAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BandAppTests-Info.plist"; sourceTree = "<group>"; };
+		E0FC67C414FA9D8000588487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0FC67C614FA9D8000588487 /* BandAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BandAppTests.h; sourceTree = "<group>"; };
+		E0FC67C714FA9D8000588487 /* BandAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0FC679514FA9D8000588487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FC679D14FA9D8000588487 /* UIKit.framework in Frameworks */,
+				E0FC679F14FA9D8000588487 /* Foundation.framework in Frameworks */,
+				E0FC67A114FA9D8000588487 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FC67B514FA9D8000588487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FC67BB14FA9D8000588487 /* SenTestingKit.framework in Frameworks */,
+				E0FC67BC14FA9D8000588487 /* UIKit.framework in Frameworks */,
+				E0FC67BD14FA9D8000588487 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0FC678D14FA9D7F00588487 = {
+			isa = PBXGroup;
+			children = (
+				E0FC67A214FA9D8000588487 /* BandApp */,
+				E0FC67C014FA9D8000588487 /* BandAppTests */,
+				E0FC679B14FA9D8000588487 /* Frameworks */,
+				E0FC679914FA9D8000588487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0FC679914FA9D8000588487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0FC679814FA9D8000588487 /* BandApp.app */,
+				E0FC67B914FA9D8000588487 /* BandAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0FC679B14FA9D8000588487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0FC679C14FA9D8000588487 /* UIKit.framework */,
+				E0FC679E14FA9D8000588487 /* Foundation.framework */,
+				E0FC67A014FA9D8000588487 /* CoreGraphics.framework */,
+				E0FC67BA14FA9D8000588487 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0FC67A214FA9D8000588487 /* BandApp */ = {
+			isa = PBXGroup;
+			children = (
+				E0FC67AB14FA9D8000588487 /* AppDelegate.h */,
+				E0FC67AC14FA9D8000588487 /* AppDelegate.m */,
+				E0FC67AE14FA9D8000588487 /* MainStoryboard.storyboard */,
+				E0FC67B114FA9D8000588487 /* ViewController.h */,
+				E0FC67B214FA9D8000588487 /* ViewController.m */,
+				E0FC67A314FA9D8000588487 /* Supporting Files */,
+			);
+			path = BandApp;
+			sourceTree = "<group>";
+		};
+		E0FC67A314FA9D8000588487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0FC67A414FA9D8000588487 /* BandApp-Info.plist */,
+				E0FC67A514FA9D8000588487 /* InfoPlist.strings */,
+				E0FC67A814FA9D8000588487 /* main.m */,
+				E0FC67AA14FA9D8000588487 /* BandApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0FC67C014FA9D8000588487 /* BandAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0FC67C614FA9D8000588487 /* BandAppTests.h */,
+				E0FC67C714FA9D8000588487 /* BandAppTests.m */,
+				E0FC67C114FA9D8000588487 /* Supporting Files */,
+			);
+			path = BandAppTests;
+			sourceTree = "<group>";
+		};
+		E0FC67C114FA9D8000588487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0FC67C214FA9D8000588487 /* BandAppTests-Info.plist */,
+				E0FC67C314FA9D8000588487 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0FC679714FA9D8000588487 /* BandApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FC67CB14FA9D8000588487 /* Build configuration list for PBXNativeTarget "BandApp" */;
+			buildPhases = (
+				E0FC679414FA9D8000588487 /* Sources */,
+				E0FC679514FA9D8000588487 /* Frameworks */,
+				E0FC679614FA9D8000588487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BandApp;
+			productName = BandApp;
+			productReference = E0FC679814FA9D8000588487 /* BandApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0FC67B814FA9D8000588487 /* BandAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FC67CE14FA9D8000588487 /* Build configuration list for PBXNativeTarget "BandAppTests" */;
+			buildPhases = (
+				E0FC67B414FA9D8000588487 /* Sources */,
+				E0FC67B514FA9D8000588487 /* Frameworks */,
+				E0FC67B614FA9D8000588487 /* Resources */,
+				E0FC67B714FA9D8000588487 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0FC67BF14FA9D8000588487 /* PBXTargetDependency */,
+			);
+			name = BandAppTests;
+			productName = BandAppTests;
+			productReference = E0FC67B914FA9D8000588487 /* BandAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0FC678F14FA9D7F00588487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E0FC679214FA9D7F00588487 /* Build configuration list for PBXProject "BandApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0FC678D14FA9D7F00588487;
+			productRefGroup = E0FC679914FA9D8000588487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0FC679714FA9D8000588487 /* BandApp */,
+				E0FC67B814FA9D8000588487 /* BandAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0FC679614FA9D8000588487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FC67A714FA9D8000588487 /* InfoPlist.strings in Resources */,
+				E0FC67B014FA9D8000588487 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FC67B614FA9D8000588487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FC67C514FA9D8000588487 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0FC67B714FA9D8000588487 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0FC679414FA9D8000588487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FC67A914FA9D8000588487 /* main.m in Sources */,
+				E0FC67AD14FA9D8000588487 /* AppDelegate.m in Sources */,
+				E0FC67B314FA9D8000588487 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FC67B414FA9D8000588487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FC67C814FA9D8000588487 /* BandAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0FC67BF14FA9D8000588487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0FC679714FA9D8000588487 /* BandApp */;
+			targetProxy = E0FC67BE14FA9D8000588487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0FC67A514FA9D8000588487 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0FC67A614FA9D8000588487 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0FC67AE14FA9D8000588487 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0FC67AF14FA9D8000588487 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E0FC67C314FA9D8000588487 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0FC67C414FA9D8000588487 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0FC67C914FA9D8000588487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0FC67CA14FA9D8000588487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0FC67CC14FA9D8000588487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BandApp/BandApp-Prefix.pch";
+				INFOPLIST_FILE = "BandApp/BandApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0FC67CD14FA9D8000588487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BandApp/BandApp-Prefix.pch";
+				INFOPLIST_FILE = "BandApp/BandApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E0FC67CF14FA9D8000588487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BandApp.app/BandApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BandApp/BandApp-Prefix.pch";
+				INFOPLIST_FILE = "BandAppTests/BandAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E0FC67D014FA9D8000588487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BandApp.app/BandApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BandApp/BandApp-Prefix.pch";
+				INFOPLIST_FILE = "BandAppTests/BandAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0FC679214FA9D7F00588487 /* Build configuration list for PBXProject "BandApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FC67C914FA9D8000588487 /* Debug */,
+				E0FC67CA14FA9D8000588487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FC67CB14FA9D8000588487 /* Build configuration list for PBXNativeTarget "BandApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FC67CC14FA9D8000588487 /* Debug */,
+				E0FC67CD14FA9D8000588487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0FC67CE14FA9D8000588487 /* Build configuration list for PBXNativeTarget "BandAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FC67CF14FA9D8000588487 /* Debug */,
+				E0FC67D014FA9D8000588487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0FC678F14FA9D7F00588487 /* Project object */;
+}

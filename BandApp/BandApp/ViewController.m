@@ -9,6 +9,30 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize variable;
+
+
+-(IBAction)secondPage;{
+    [[UIApplication sharedApplication]
+     openURL:[NSURL URLWithString:@"http://www.elliottbrood.ca"]];
+}
+
+-(IBAction)Link;{
+    [[UIApplication sharedApplication]
+     openURL:[NSURL URLWithString:@"http://www.elliottbrood.ca"]];
+}
+-(IBAction)sms {
+    [[UIApplication sharedApplication]
+     openURL:[NSURL URLWithString:@"sms:5555555555"]];
+}
+-(IBAction)phone{
+    [[UIApplication sharedApplication]
+     openURL:[NSURL URLWithString:@"tele:5555555555"]];
+}
+
+-(IBAction)HelloWorld:(id)sender{
+    [variable setText:@"HELLO WORLD"];
+}
 
 - (void)didReceiveMemoryWarning
 {

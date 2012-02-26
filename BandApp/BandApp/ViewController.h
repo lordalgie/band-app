@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *variable;
 
+
+
+
+-(IBAction)HelloWorld:(id)sender;
+-(IBAction)Link;
+-(IBAction)sms;
+-(IBAction)phone;
+
+-(IBAction)secondPage;
 @end

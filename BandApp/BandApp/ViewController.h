@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIActionSheetDelegate, UIAlertViewDelegate>
 @property (strong, nonatomic) IBOutlet UILabel *variable;
 
 
@@ -18,6 +18,6 @@
 -(IBAction)Link;
 -(IBAction)sms;
 -(IBAction)phone;
-
 -(IBAction)secondPage;
+-(IBAction)pageInfo;
 @end

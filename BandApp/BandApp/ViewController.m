@@ -42,6 +42,16 @@
 
 #pragma mark - View lifecycle
 
+//I ADDED THIS FOR PAGE CONNECTION
+-(IBAction)pageInfo{
+    UIAlertView*alert = [[UIAlertView alloc] initWithTitle:@"Info" 
+    message:@"Currently Displaying View One"
+    delegate:self 
+    cancelButtonTitle:@"Ok" 
+    otherButtonTitles:nil];
+    [alert show];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

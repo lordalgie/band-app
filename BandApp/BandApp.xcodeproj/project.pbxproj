@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0C2D28214FB2B980008C3C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C2D28114FB2B980008C3C0 /* SecondViewController.m */; };
 		E0FC679D14FA9D8000588487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679C14FA9D8000588487 /* UIKit.framework */; };
 		E0FC679F14FA9D8000588487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679E14FA9D8000588487 /* Foundation.framework */; };
 		E0FC67A114FA9D8000588487 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC67A014FA9D8000588487 /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0C2D28014FB2B980008C3C0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E0C2D28114FB2B980008C3C0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E0FC679814FA9D8000588487 /* BandApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FC679C14FA9D8000588487 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0FC679E14FA9D8000588487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 				E0FC67AB14FA9D8000588487 /* AppDelegate.h */,
 				E0FC67AC14FA9D8000588487 /* AppDelegate.m */,
 				E0FC67AE14FA9D8000588487 /* MainStoryboard.storyboard */,
+				E0C2D28014FB2B980008C3C0 /* SecondViewController.h */,
+				E0C2D28114FB2B980008C3C0 /* SecondViewController.m */,
 				E0FC67B114FA9D8000588487 /* ViewController.h */,
 				E0FC67B214FA9D8000588487 /* ViewController.m */,
 				E0FC67A314FA9D8000588487 /* Supporting Files */,
@@ -264,6 +269,7 @@
 				E0FC67A914FA9D8000588487 /* main.m in Sources */,
 				E0FC67AD14FA9D8000588487 /* AppDelegate.m in Sources */,
 				E0FC67B314FA9D8000588487 /* ViewController.m in Sources */,
+				E0C2D28214FB2B980008C3C0 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +439,7 @@
 				E0FC67CD14FA9D8000588487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0FC67CE14FA9D8000588487 /* Build configuration list for PBXNativeTarget "BandAppTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +448,7 @@
 				E0FC67D014FA9D8000588487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,5 @@
 -(IBAction)Link;
 -(IBAction)sms;
 -(IBAction)phone;
--(IBAction)secondPage;
 -(IBAction)pageInfo;
 @end

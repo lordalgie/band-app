@@ -12,11 +12,6 @@
 @synthesize variable;
 
 
--(IBAction)secondPage;{
-    [[UIApplication sharedApplication]
-     openURL:[NSURL URLWithString:@"http://www.elliottbrood.ca"]];
-}
-
 -(IBAction)Link;{
     [[UIApplication sharedApplication]
      openURL:[NSURL URLWithString:@"http://www.elliottbrood.ca"]];

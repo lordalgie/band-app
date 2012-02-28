@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E06C1C0314FC6FEB00604CEF /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = E06C1C0214FC6FEB00604CEF /* 53-house.png */; };
+		E06C1C0514FC702D00604CEF /* 166-newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = E06C1C0414FC702D00604CEF /* 166-newspaper.png */; };
+		E06C1C0714FC707400604CEF /* 31-ipod.png in Resources */ = {isa = PBXBuildFile; fileRef = E06C1C0614FC707400604CEF /* 31-ipod.png */; };
+		E06C1C0914FC70EE00604CEF /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = E06C1C0814FC70EE00604CEF /* 28-star.png */; };
 		E0C2D28214FB2B980008C3C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C2D28114FB2B980008C3C0 /* SecondViewController.m */; };
 		E0FC679D14FA9D8000588487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679C14FA9D8000588487 /* UIKit.framework */; };
 		E0FC679F14FA9D8000588487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679E14FA9D8000588487 /* Foundation.framework */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E06C1C0214FC6FEB00604CEF /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
+		E06C1C0414FC702D00604CEF /* 166-newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "166-newspaper.png"; sourceTree = "<group>"; };
+		E06C1C0614FC707400604CEF /* 31-ipod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "31-ipod.png"; sourceTree = "<group>"; };
+		E06C1C0814FC70EE00604CEF /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
 		E0C2D28014FB2B980008C3C0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E0C2D28114FB2B980008C3C0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E0FC679814FA9D8000588487 /* BandApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +139,10 @@
 		E0FC67A314FA9D8000588487 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E06C1C0814FC70EE00604CEF /* 28-star.png */,
+				E06C1C0614FC707400604CEF /* 31-ipod.png */,
+				E06C1C0414FC702D00604CEF /* 166-newspaper.png */,
+				E06C1C0214FC6FEB00604CEF /* 53-house.png */,
 				E0FC67D114FA9EB500588487 /* image1.jpg */,
 				E0FC67A414FA9D8000588487 /* BandApp-Info.plist */,
 				E0FC67A514FA9D8000588487 /* InfoPlist.strings */,
@@ -232,6 +244,10 @@
 				E0FC67A714FA9D8000588487 /* InfoPlist.strings in Resources */,
 				E0FC67B014FA9D8000588487 /* MainStoryboard.storyboard in Resources */,
 				E0FC67D214FA9EB500588487 /* image1.jpg in Resources */,
+				E06C1C0314FC6FEB00604CEF /* 53-house.png in Resources */,
+				E06C1C0514FC702D00604CEF /* 166-newspaper.png in Resources */,
+				E06C1C0714FC707400604CEF /* 31-ipod.png in Resources */,
+				E06C1C0914FC70EE00604CEF /* 28-star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

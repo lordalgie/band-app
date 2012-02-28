@@ -11,6 +11,9 @@
 		E06C1C0514FC702D00604CEF /* 166-newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = E06C1C0414FC702D00604CEF /* 166-newspaper.png */; };
 		E06C1C0714FC707400604CEF /* 31-ipod.png in Resources */ = {isa = PBXBuildFile; fileRef = E06C1C0614FC707400604CEF /* 31-ipod.png */; };
 		E06C1C0914FC70EE00604CEF /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = E06C1C0814FC70EE00604CEF /* 28-star.png */; };
+		E06C1C1214FC7AB700604CEF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06C1C1114FC7AB700604CEF /* ThirdViewController.m */; };
+		E06C1C1514FC7C8600604CEF /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06C1C1414FC7C8600604CEF /* FourthViewController.m */; };
+		E06C1C1814FC7D2100604CEF /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06C1C1714FC7D2100604CEF /* FifthViewController.m */; };
 		E0C2D28214FB2B980008C3C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C2D28114FB2B980008C3C0 /* SecondViewController.m */; };
 		E0FC679D14FA9D8000588487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679C14FA9D8000588487 /* UIKit.framework */; };
 		E0FC679F14FA9D8000588487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FC679E14FA9D8000588487 /* Foundation.framework */; };
@@ -43,6 +46,12 @@
 		E06C1C0414FC702D00604CEF /* 166-newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "166-newspaper.png"; sourceTree = "<group>"; };
 		E06C1C0614FC707400604CEF /* 31-ipod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "31-ipod.png"; sourceTree = "<group>"; };
 		E06C1C0814FC70EE00604CEF /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		E06C1C1014FC7AB700604CEF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E06C1C1114FC7AB700604CEF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E06C1C1314FC7C8600604CEF /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		E06C1C1414FC7C8600604CEF /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		E06C1C1614FC7D2100604CEF /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		E06C1C1714FC7D2100604CEF /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		E0C2D28014FB2B980008C3C0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E0C2D28114FB2B980008C3C0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E0FC679814FA9D8000588487 /* BandApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,11 +136,17 @@
 				E0FC67AB14FA9D8000588487 /* AppDelegate.h */,
 				E0FC67AC14FA9D8000588487 /* AppDelegate.m */,
 				E0FC67AE14FA9D8000588487 /* MainStoryboard.storyboard */,
+				E06C1C1614FC7D2100604CEF /* FifthViewController.h */,
+				E06C1C1714FC7D2100604CEF /* FifthViewController.m */,
 				E0C2D28014FB2B980008C3C0 /* SecondViewController.h */,
 				E0C2D28114FB2B980008C3C0 /* SecondViewController.m */,
 				E0FC67B114FA9D8000588487 /* ViewController.h */,
 				E0FC67B214FA9D8000588487 /* ViewController.m */,
 				E0FC67A314FA9D8000588487 /* Supporting Files */,
+				E06C1C1014FC7AB700604CEF /* ThirdViewController.h */,
+				E06C1C1114FC7AB700604CEF /* ThirdViewController.m */,
+				E06C1C1314FC7C8600604CEF /* FourthViewController.h */,
+				E06C1C1414FC7C8600604CEF /* FourthViewController.m */,
 			);
 			path = BandApp;
 			sourceTree = "<group>";
@@ -286,6 +301,9 @@
 				E0FC67AD14FA9D8000588487 /* AppDelegate.m in Sources */,
 				E0FC67B314FA9D8000588487 /* ViewController.m in Sources */,
 				E0C2D28214FB2B980008C3C0 /* SecondViewController.m in Sources */,
+				E06C1C1214FC7AB700604CEF /* ThirdViewController.m in Sources */,
+				E06C1C1514FC7C8600604CEF /* FourthViewController.m in Sources */,
+				E06C1C1814FC7D2100604CEF /* FifthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Includes music to listen to" lineBreakMode="tailTruncation" minimumFontSize="10" id="VmY-n9-Bni">
+                                <rect key="frame" x="71" y="220" width="199" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                     </view>
                     <navigationItem key="navigationItem" id="pMf-Sb-daL"/>
@@ -59,6 +66,13 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fifth Page More" lineBreakMode="tailTruncation" minimumFontSize="10" id="m5F-Ak-StH">
                                 <rect key="frame" x="99" y="162" width="122" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Includes contact information" lineBreakMode="tailTruncation" minimumFontSize="10" id="oWH-bJ-sgD">
+                                <rect key="frame" x="58" y="225" width="217" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -265,7 +279,7 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lmW-JS-F4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="UZq-ag-3tP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Music" image="31-ipod.png" id="1B8-C5-Saw"/>
+                    <tabBarItem key="tabBarItem" title="Music" image="66-microphone.png" id="1B8-C5-Saw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="NrD-9K-t05">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -301,7 +315,7 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tdQ-9j-puN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="bF2-Fp-eEN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="cng-R1-KaS"/>
+                    <tabBarItem key="tabBarItem" title="Extras" image="136-tractor.png" id="cng-R1-KaS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="0xi-oj-FPF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -317,10 +331,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="136-tractor.png" width="35" height="25"/>
         <image name="166-newspaper.png" width="28" height="23"/>
         <image name="28-star.png" width="26" height="26"/>
-        <image name="31-ipod.png" width="17" height="29"/>
         <image name="53-house.png" width="22" height="22"/>
+        <image name="66-microphone.png" width="12" height="24"/>
     </resources>
     <classes>
         <class className="FifthViewController" superclassName="UIViewController">
